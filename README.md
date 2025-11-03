@@ -1,11 +1,11 @@
-# 🌿 Sage & Blush Travels
+# Sage & Blush Travels
 
 Ett mjukt, feminint och naturligt resebloggsprojekt byggt med **HTML5** och **CSS3** – helt utan JavaScript.  
 Webbplatsen är responsiv, tillgänglig och designad för att fungera på olika skärmstorlekar.
 
 ---
 
-## 🩷 Kort projektbeskrivning & skärmdumpar
+## Kort projektbeskrivning & skärmdumpar
 
 **Sage & Blush Travels** är en personlig reseblogg som delar lugna, estetiska resor genom  
 **Schweiz, Sverige, Rom och Grekland**.  
@@ -23,14 +23,14 @@ Projektet består av tre sidor:
 
 ---
 
-## 🎨 Designbeslut & motivering
+## Designbeslut & motivering
 
 **Färgpalett**
-- 🩰 **Blush (#f5c7cf)** – mjuk och feminin grundton  
-- 🌿 **Sage (#7a9e87)** – naturlig accentfärg  
-- 🌸 **Rose (#e89aae)** – används för fokus och länkar  
-- 🕊️ **Cream (#fff8f6)** – bakgrund för en varm känsla  
-- 🌲 **Forest (#2f4d3b)** – mörk kontrastfärg för text och rubriker
+- **Blush (#f5c7cf)** – mjuk och feminin grundton  
+- **Sage (#7a9e87)** – naturlig accentfärg  
+- **Rose (#e89aae)** – används för fokus och länkar  
+- **Cream (#fff8f6)** – bakgrund för en varm känsla  
+- **Forest (#2f4d3b)** – mörk kontrastfärg för text och rubriker
 
 **Typografi**
 - Systemfonter (sans-serif stack) för läsbarhet och prestanda  
@@ -45,7 +45,7 @@ Motivet bakom designen är att förmedla **lugn, naturlighet och femininitet** �
 
 ---
 
-## 🪄 CSS-mönster för interaktivitet
+## CSS-mönster för interaktivitet
 
 1. **Hamburgermeny** – byggd med `:checked`-mönster (checkbox-hack) för att öppna/stänga navigeringen utan JavaScript.  
 2. **Expandera “Läs mer”** – `<details>/<summary>` på About-sidan visar extra text vid klick.  
@@ -56,7 +56,7 @@ Alla mönster fungerar med tangentbord och skärmläsare.
 
 ---
 
-## ⚙️ Kända begränsningar & förbättringsidéer
+## Kända begränsningar & förbättringsidéer
 
 **Begränsningar**
 - Bilder hämtas via **Unsplash Source API**, vilket kräver internetanslutning.  
