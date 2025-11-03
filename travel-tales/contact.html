@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact — Sage & Blush Travels</title>
+  <meta name="description" content="Get in touch with Sage & Blush Travels — share your thoughts, collaborations or kind words." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to main content</a>
+
+    <header class="site-header" role="banner">
+        <div class="site-header__inner container">
+            <a class="brand" href="index.html">
+                <span class="brand__mark" aria-hidden="true">✿</span>
+                <span class="brand__text">Sage &amp; Blush Travels</span>
+            </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav__toggle" aria-hidden="true">
+            <label for="nav-toggle" class="nav__hamburger" aria-label="Toggle menu" aria-controls="site-nav" aria-expanded="false">
+                <span class="nav__bar" aria-hidden="true"></span>
+                <span class="nav__bar" aria-hidden="true"></span>
+                <span class="nav__bar" aria-hidden="true"></span>
+            </label>
+
+            <nav id="site-nav" class="nav" aria-label="Primary">
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="index.html">Home</a></li>
+                    <li><a class="nav__link" href="about.html">About</a></li>
+                    <li><a class="nav__link nav__link--active" href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="site-main" role="main">
+        <!-- Hero -->
+         <section class="hero" aria-label="Contact intro">
+            <div class="hero__media">
+                <img class="hero__img" src="https://source.unsplash.com/1200x700/?letters,flowers,stationery,pastel"
+                  alt="Soft stationery and flowers flat lay" loading="eager" width="1200" height="700">
+           </div>
+
+           <div class="hero__content container">
+              <h1 class="hero__title">Let's Contect</h1>
+              <p class="hero__tagline">I'd love to hear from you - questions, collabs, or just a hello.</p>
+           </div>
+         </section>
+
+       <!-- Contact form -->
+        <section class="section container" aria-labelledby="contact-title">
+            <h2 id="contact-title" class="section__title">Send a Message</h2>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form__row">
+                    <label for="name" class="form__label">Name</label>
+                    <input id="name" name="name" class="form__control" type="text" placeholder="Youe full name" required>
+                </div>
+
+                <div class="form__row">
+                    <label for="email" class="form__label">Email</label>
+                    <input id="email" name="email" class="form__control" type="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form__row">
+                    <label for="subject" class="form__label">Sunject</label>
+                    <input id="subject" name="subject" class="form__control" type="text" placeholder="Message subject" required>
+                </div>
+
+                <div class="form__row">
+                    <label for="message" class="form__label">Message</label>
+                    <textarea id="message" name="message" class="form__control" rows="6" placeholder="Write your message...." required></textarea>
+                </div>
+
+                <button class="btn btn--secondary" type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <!-- Alternative contact -->
+         <section class="section section--alt" aria-labelledby="other-contact">
+            <div class="container">
+                <h2 id="other-contact" class="section__title">Other Ways to reach me</h2>
+                <ul class="contact-info">
+                    <li>📧 Email: <a href="mailto:hello@example.com">hello@example.com</a></li>
+                    <li>📸 Instagram: <a href="#">@sageandblushtravels</a></li>
+                    <li>📍 Based in: Stockholm, Sweden</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+        <div class="container footer__grid">
+           <section>
+             <h2 class="footer__title">About this blog</h2>
+             <p>gentle itineraries, soft paletters and nature-first days.</p>
+           </section>
+
+           <nav aria-label="Footer">
+             <h2 class="footer__title">Explore</h2>
+             <ul class="footer__list">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a></li>
+                 <li><a href="contact.html" aria-current="page">Contact</a></li>
+             </ul>
+           </nav>
+
+           <section>
+             <h2 class="footer__title">Say hi</h2>
+             <ul class="footer__list">
+                 <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+                 <li><a href="#" rel="me">Instagram</a></li>
+             </ul>
+           </section>
+        </div>
+        <p class="footer__legal">© 2025 Sgae &amp; Blush Travels. All rights reserved.</p>
+    </footer>
+</body>
+</html>
